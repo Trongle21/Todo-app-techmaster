@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-app {
+    margin-top: 100px;
+    width: 400px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.create-task-form {
+    display: flex;
+}
+
+.filter-task-form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-input {
+    flex: 1;
+}
+
+.task-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
